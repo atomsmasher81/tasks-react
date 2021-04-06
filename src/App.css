@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  background-color: #5a6b8c;
+  height: 100vh;
 }
-
+.main-heading {
+  background-color: #5a6b8c;
+  height: 10vh;
+  color: white;
+  font-family: 'Courier New', monospace;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

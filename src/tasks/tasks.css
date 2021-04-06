@@ -1,0 +1,88 @@
+h1 {
+  margin: 0vh;
+  padding: 2vh;
+        font-family: 'Open Sans', sans-serif;
+
+}
+
+.list-elements {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 2%;
+    background-color: #ea7e7e;
+    border-radius: 30px 30px 0 0;
+    flex-wrap: wrap;
+    margin: -40px 0 0 0;
+}
+
+
+.task {
+
+    height: 120px;
+    width: 120px;
+    padding: 1% 2%;
+    border-radius: 25px;
+    background-color: lightcoral;
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 5vh 10%;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.task-done {
+    background-color: #5a6b8c;
+        color: antiquewhite;
+
+}
+
+.task-data {
+    align-items: flex-start;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.task-option{
+    display: flex;
+    justify-content: center;
+   /*position:relative;*/
+   /*bottom:150px;*/
+   /*left:150px;*/
+}
+
+.button-done {
+ display: inline-block;
+    /* border-radius: 4px; */
+    background-color: #0e0004d1;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    /* width: 200px; */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button-not-done {
+ display: inline-block;
+    /* border-radius: 4px; */
+    background-color: #0e0004d1;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    /* width: 200px; */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
